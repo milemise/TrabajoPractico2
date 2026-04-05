@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("UnlockReceiver", "Evento de desbloqueo detectado");
 
                 Intent intentLlamada = new Intent(Intent.ACTION_DIAL);
-                intentLlamada.setData(Uri.parse("tel:2657234567"));
+                intentLlamada.setData(Uri.parse("tel:2664553747"));
                 intentLlamada.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intentLlamada);
             }
